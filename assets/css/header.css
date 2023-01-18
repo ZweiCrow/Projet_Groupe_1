@@ -2,10 +2,11 @@
 /* ---------- Header ----------*/
 
 header              { height: 100px; background: rgb(255, 255, 255);}
+header a:hover      { color: #EFAB2F;}
 #headerContainer    { width: 60%; height: 90%; justify-content: space-between;}
 .headerEnds         { width: 17%; }
 nav                 { width: 60%; }
 #numero             { width: fit-content;}
 li                  { width: fit-content; padding: 0 10px;}
 .dot                { border-left: 1px solid black;}
-
+#home               { color: #EFAB2F;}
