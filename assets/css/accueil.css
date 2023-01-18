@@ -12,16 +12,30 @@ html                { scroll-behavior: smooth; }
 
 /* ---------- Main ----------*/
 main        { height: 5300px; background: white;}
+main h2     { font-size: 30px; margin-bottom: 20px; padding-top: 10px;}
+main p      { font-weight: 100; font-size: 16px; color: #BCBCBC;}
 .mainImg    { width: 100%;}
+.mainContainer { width: 70%; height: 90%; background: darkkhaki;}
 
 /* ---------- Carousel ----------*/
 #carousel           { height: 740px; background: salmon;}
 
 /* ---------- About Restoral ----------*/
-#aboutRestoral      { height: 833px; background: brown;}
+#aboutRestoral      { height: 833px; background: brown; clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%);}
+
 
 /* ---------- Valeurs ----------*/
-#valeurs            { height: 400px; background: darkcyan;}
+#valeurs            { height: 300px; }
+#valeurContainer    { justify-content: space-between;}
+.valeur             { width: calc(100%/4.5); height: 95%; }
+.valeursIcon        { height: 45%; background: darkblue;}
+.valeursTitle       { height: 15%; }
+.valeursBar         { height: 15%; justify-content: center;}
+.divider            { width: 20%; }
+.valeursText        { height: 25%; }
+
+
+
 
 /* ---------- Carte ----------*/
 #carte              { height: 650px; background: darkslategrey;}
@@ -33,10 +47,13 @@ main        { height: 5300px; background: white;}
 #ourChefs           { height: 650px; background: darkolivegreen;}
 
 /* ---------- Our Partners ----------*/
-#ourPartners        { height: 400px; background: darksalmon;}
+#ourPartners        { height: 400px; text-align: center;}
+#partner            { height: 40%; }
+#partnerLogos       { height: 60%; }
+.partners           { width: 25%; height: 90%;  margin: 2%;}
 
 /* ---------- Gallery ----------*/
-#gallery            { height: 394px; background: darkseagreen;}
+#gallery            { height: fit-content; background: darkseagreen;}
 .gallery            { width: 480px; background: #9c9c9c;}
 
 /* ---------- Our Testimonials ----------*/
