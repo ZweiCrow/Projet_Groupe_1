@@ -1,0 +1,11 @@
+@font-face          { font-family: test; src: url(../fonts/flbigmugline/fl-bigmug-line.ttf); }
+
+html *              { font-size: 100%; font-weight: bold; font-family: "test"; }
+a                   { font-size: 17px; color: #222222; text-decoration: none; transition: .5s; }
+
+.flex               { display: flex; }
+.flexColumn         { display: flex; flex-direction: column; }
+.centerBloc         { display: flex; align-items: center; justify-content: center; } /* Centre un bloc enfant */
+.centerText         { text-align: center; } /* Centre le texte */
+.img                { width: 70%;}
+html                { scroll-behavior: smooth; }
