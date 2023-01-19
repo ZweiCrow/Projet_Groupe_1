@@ -1,0 +1,43 @@
+@font-face          { font-family: test; src: url(../fonts/flbigmugline/fl-bigmug-line.ttf); }
+
+html *              { font-size: 100%; font-weight: bold; font-family: "test"; }
+a                   { font-size: 17px; color: #222222; text-decoration: none; transition: .5s; }
+
+.flex               { display: flex; }
+.flexColumn         { display: flex; flex-direction: column; }
+.centerBloc         { display: flex; align-items: center; justify-content: center; } /* Centre un bloc enfant */
+.centerText         { text-align: center; } /* Centre le texte */
+.img                { width: 70%;}
+.cta                { background: #EC5353; padding: 20px 25px; border-radius: 50px; color: aliceblue;}
+.cta:hover          { background: aliceblue; color: #F9B129; box-shadow: 0 0 4px #F9B129;}
+html                { scroll-behavior: smooth; }
+
+sub, sup            { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup                 { top: -0.5em; }
+sub                 { bottom: -1em; }
+
+/* ---------- Main ----------*/
+
+main                { height: fit-content; background: white; }
+main h1             { font-size: 55px; color: aliceblue;}
+main h2             { font-size: 40px; margin-bottom: 20px; padding-top: 10px; color: aliceblue;}
+main h3             { font-size: 18px; }
+main h4             { font-size: 14px; }
+main p              { font-weight: 100; font-size: 16px; color: aliceblue; }
+.mainImg            { width: 100%; }
+.heightImg          { height: 100%;}
+.mainContainer      { width: 70%; height: 90%; background: #222222;}
+
+
+/* ---------- Titre ----------*/
+
+#pageTitle          { height: 300px; background: url(../images/ely.jpg) no-repeat; background-position: center; }
+#opacity            { height: 100%; width: 100%; background: rgba(0, 0, 0, .5);} 
+#titleContainer     { height: 50%; }
+#titleText          { height: 60%; }
+#Arianne            { height: 40%; }
+#pageTitle a        { font-size: 16px; color: #F9B129;}
+#pageTitle a:hover  { color: aliceblue; text-shadow: 0 0 4px #F9B129;}
+.titleImg           { width: 8%; margin: 0 15px;}
+#pageTitle p        { font-size: 16px; color: aliceblue;}
+
