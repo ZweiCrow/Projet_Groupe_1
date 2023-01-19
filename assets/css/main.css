@@ -1,0 +1,61 @@
+main{
+}
+
+.rectangle{
+    background: rgb(108, 110, 108);
+    height: 200px;
+    width: auto;
+    margin: 20px;
+}
+
+
+  
+
+#bloc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+}
+
+
+.toasts,.pizza{
+    width: 570px;
+    height: 321px;
+    background: rgb(141, 141, 140);
+    margin: 10px;
+    background: linear-gradient( rgb(182, 182, 182), rgb(0, 0, 0));
+}
+
+.burgers1, .burgers2{
+    width: 570px;
+    height: 321px;
+    background: rgb(141, 141, 140);
+    margin: 10px;
+    background: linear-gradient( rgb(182, 182, 182), rgb(0, 0, 0));
+}
+
+h1{
+    background: orange;
+    color: white;
+    width: 110px;
+    margin: 50px;
+}
+
+h2{
+    color: white;
+    margin: 10px;
+}
+
+p{
+    color: rgb(255, 187, 0);
+    margin: 10px;
+
+}
+
+.Texte1{
+    color: orange;
+}
+
