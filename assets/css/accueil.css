@@ -1,0 +1,60 @@
+@font-face          { font-family: test; src: url(../fonts/flbigmugline/fl-bigmug-line.ttf); }
+
+html *              { font-size: 100%; font-weight: bold; font-family: "test"; }
+a                   { font-size: 17px; color: #222222; text-decoration: none; transition: .5s; }
+
+.flex               { display: flex; }
+.flexColumn         { display: flex; flex-direction: column; }
+.centerBloc         { display: flex; align-items: center; justify-content: center; } /* Centre un bloc enfant */
+.centerText         { text-align: center; } /* Centre le texte */
+.img                { width: 70%;}
+html                { scroll-behavior: smooth; }
+
+/* ---------- Main ----------*/
+main        { height: 5300px; background: white;}
+main h2     { font-size: 30px; margin-bottom: 20px; padding-top: 10px;}
+main p      { font-weight: 100; font-size: 16px; color: #BCBCBC;}
+.mainImg    { width: 100%;}
+.mainContainer { width: 70%; height: 90%; background: darkkhaki;}
+
+/* ---------- Carousel ----------*/
+#carousel           { height: 740px; background: salmon;}
+
+/* ---------- About Restoral ----------*/
+#aboutRestoral      { height: 833px; background: brown; clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%);}
+
+
+/* ---------- Valeurs ----------*/
+#valeurs            { height: 300px; }
+#valeurContainer    { justify-content: space-between;}
+.valeur             { width: calc(100%/4.5); height: 95%; }
+.valeursIcon        { height: 45%; background: darkblue;}
+.valeursTitle       { height: 15%; }
+.valeursBar         { height: 15%; justify-content: center;}
+.divider            { width: 20%; }
+.valeursText        { height: 25%; }
+
+
+
+
+/* ---------- Carte ----------*/
+#carte              { height: 650px; background: darkslategrey;}
+
+/* ---------- Order Online ----------*/
+#orderOnline        { height: 572px; background: darkgoldenrod;}
+
+/* ---------- Our Chefs ----------*/
+#ourChefs           { height: 650px; background: darkolivegreen;}
+
+/* ---------- Our Partners ----------*/
+#ourPartners        { height: 400px; text-align: center;}
+#partner            { height: 40%; }
+#partnerLogos       { height: 60%; }
+.partners           { width: 25%; height: 90%;  margin: 2%;}
+
+/* ---------- Gallery ----------*/
+#gallery            { height: fit-content; background: darkseagreen;}
+.gallery            { width: 480px; background: #9c9c9c;}
+
+/* ---------- Our Testimonials ----------*/
+#ourTestimonials    { height: 650px; background: darkslateblue;}
