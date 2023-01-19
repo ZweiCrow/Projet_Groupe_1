@@ -12,6 +12,10 @@ a                   { font-size: 17px; color: #222222; text-decoration: none; tr
 .cta:hover          { background: aliceblue; color: #F9B129; box-shadow: 0 0 4px #F9B129;}
 html                { scroll-behavior: smooth; }
 
+sub, sup            { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup                 { top: -0.5em; }
+sub                 { bottom: -1em; }
+
 /* ---------- Main ----------*/
 main                { height: fit-content; background: white; }
 main h2             { font-size: 30px; margin-bottom: 20px; padding-top: 10px; }
@@ -19,7 +23,8 @@ main h3             { font-size: 18px; }
 main h4             { font-size: 14px; }
 main p              { font-weight: 100; font-size: 16px; color: #BCBCBC; }
 .mainImg            { width: 100%; }
-.mainContainer      { width: 70%; height: 90%; background: darkkhaki; }
+.heightImg          { height: 100%;}
+.mainContainer      { width: 70%; height: 90%; }
 
 /* ---------- Carousel ----------*/
 #carousel           { height: 740px; background: url(../images/home-slide-3-1920x800.jpg) no-repeat; background-position: center;}
@@ -36,28 +41,49 @@ main p              { font-weight: 100; font-size: 16px; color: #BCBCBC; }
 #valeurs            { height: 300px; }
 #valeurContainer    { justify-content: space-between;}
 .valeur             { width: calc(100%/4.5); height: 95%; }
-.valeursIcon        { height: 45%; background: darkblue;}
+.valeursIcon        { height: 45%; }
 .valeursTitle       { height: 15%; }
 .valeursBar         { height: 15%; justify-content: center;}
 .divider            { width: 20%; }
 .valeursText        { height: 25%; }
 
 /* ---------- Carte ----------*/
-#carte              { height: 650px; background: darkslategrey;}
+#carte              { height: 650px; }
+#carte *            { color: #ECEEED;}
+#carte p            { margin-top: 15px;}
+#carteContainer     { justify-content: space-around; background: url(../images/carteBack.svg) no-repeat; background-position: center; background-size: 100%;}
+.carteSection       { width: 40%; height: 70%; justify-content: space-around;}
+.carteDiv           { height: 20%; }
+
+
 
 /* ---------- Order Online ----------*/
 #orderOnline h2     { font-size: 50px;}
 #orderOnline h3     { font-size: 30px;}
 #orderOnline        { height: 572px; background: url(../images/parallax-06.jpg) no-repeat; background-position: center; color: #ECEEED;}
-#orderBack          { width: 100%; height: 100%; background: #2222226a;}
-#order              { width: 40%; height: 40%; background: #222222;}
+#orderBack          { width: 100%; height: 100%; background: #222222ba;}
+#order              { width: 40%; height: 50%; }
 #orderTitle         { height: 20%; }
 #orderSubtitle      { height: 20%; }
-#orderPrice         { height: 40%; background: #e31616;}
+#orderPrice         { height: 40%; justify-content: space-between;}
+#left               { width: 49%; justify-content: flex-end; color: #F9B129;}
+#left p             { color: #F9B129;}
+#right              { width: 49%;}
 #orderButton        { height: 20%; }
 
 /* ---------- Our Chefs ----------*/
-#ourChefs           { height: 650px; background: darkolivegreen;}
+#ourChefs           { height: 650px; }
+#chefsTitle         { height: 15%; }
+#chefsContainer     { height: 85%; }
+.chefsSection       { width: calc(100%/ 3.5); height: 90%; }
+.chefsPhoto         { height: 60%; }
+.photo              { width: 100%; height: 100%;}
+.chefsImg           { border-radius: 50%;}
+.chefsName          { height: 10%; color: #F9B129;}
+.chefsTitle         { height: 5%; }
+.chefsMedia         { height: 10%; }
+.media              { width: 23%; height: 100%; border-radius: 50%; border: 1px solid #F9B129; }
+.media:has(a:hover) { box-shadow: 0 0 4px #F9B129;}
 
 /* ---------- Our Partners ----------*/
 #ourPartners        { height: 400px; text-align: center;}
