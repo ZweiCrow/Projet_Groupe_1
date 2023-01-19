@@ -46,7 +46,15 @@ main p              { font-weight: 100; font-size: 16px; color: #BCBCBC; }
 #carte              { height: 650px; background: darkslategrey;}
 
 /* ---------- Order Online ----------*/
-#orderOnline        { height: 572px; background: darkgoldenrod;}
+#orderOnline h2     { font-size: 50px;}
+#orderOnline h3     { font-size: 30px;}
+#orderOnline        { height: 572px; background: url(../images/parallax-06.jpg) no-repeat; background-position: center; color: #ECEEED;}
+#orderBack          { width: 100%; height: 100%; background: #2222226a;}
+#order              { width: 40%; height: 40%; background: #222222;}
+#orderTitle         { height: 20%; }
+#orderSubtitle      { height: 20%; }
+#orderPrice         { height: 40%; background: #e31616;}
+#orderButton        { height: 20%; }
 
 /* ---------- Our Chefs ----------*/
 #ourChefs           { height: 650px; background: darkolivegreen;}
