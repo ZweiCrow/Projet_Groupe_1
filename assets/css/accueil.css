@@ -8,21 +8,29 @@ a                   { font-size: 17px; color: #222222; text-decoration: none; tr
 .centerBloc         { display: flex; align-items: center; justify-content: center; } /* Centre un bloc enfant */
 .centerText         { text-align: center; } /* Centre le texte */
 .img                { width: 70%;}
+.cta                { background: #EC5353; padding: 20px 25px; border-radius: 50px; color: aliceblue;}
+.cta:hover          { background: aliceblue; color: #F9B129; box-shadow: 0 0 4px #F9B129;}
 html                { scroll-behavior: smooth; }
 
 /* ---------- Main ----------*/
-main        { height: 5300px; background: white;}
-main h2     { font-size: 30px; margin-bottom: 20px; padding-top: 10px;}
-main p      { font-weight: 100; font-size: 16px; color: #BCBCBC;}
-.mainImg    { width: 100%;}
-.mainContainer { width: 70%; height: 90%; background: darkkhaki;}
+main                { height: fit-content; background: white; }
+main h2             { font-size: 30px; margin-bottom: 20px; padding-top: 10px; }
+main h3             { font-size: 18px; }
+main h4             { font-size: 14px; }
+main p              { font-weight: 100; font-size: 16px; color: #BCBCBC; }
+.mainImg            { width: 100%; }
+.mainContainer      { width: 70%; height: 90%; background: darkkhaki; }
 
 /* ---------- Carousel ----------*/
-#carousel           { height: 740px; background: salmon;}
+#carousel           { height: 740px; background: url(../images/home-slide-3-1920x800.jpg) no-repeat; background-position: center;}
 
 /* ---------- About Restoral ----------*/
-#aboutRestoral      { height: 833px; background: brown; clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%);}
-
+#aboutRestoral      { height: 650px; background: #ECEEED; clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%);}
+#aboutContainer     { width: 80%; height: 100%; }
+#aboutImg           { width: 55%; }
+#aboutText          { width: 45%; }
+#textContainer      { width: 90%; height: 60%; }
+.numbers            { text-align: center;}
 
 /* ---------- Valeurs ----------*/
 #valeurs            { height: 300px; }
@@ -33,9 +41,6 @@ main p      { font-weight: 100; font-size: 16px; color: #BCBCBC;}
 .valeursBar         { height: 15%; justify-content: center;}
 .divider            { width: 20%; }
 .valeursText        { height: 25%; }
-
-
-
 
 /* ---------- Carte ----------*/
 #carte              { height: 650px; background: darkslategrey;}
@@ -57,4 +62,14 @@ main p      { font-weight: 100; font-size: 16px; color: #BCBCBC;}
 .gallery            { width: 480px; background: #9c9c9c;}
 
 /* ---------- Our Testimonials ----------*/
-#ourTestimonials    { height: 650px; background: darkslateblue;}
+#ourTestimonials    { height: 650px; }
+#testimonialsTitle  { height: 15%; }
+#testimonialsTiles  { height: 70%; justify-content: space-around;}
+.testimonialsTiles  { width: calc(100%/3.5); }
+.tileImg            { height: 40%; background: url(../images/tilesDivider.svg) no-repeat; background-size: 100%; background-position: 1% 54%;}
+.tileImgContain     { width: 100%; height: 100%; border-radius: 50%;  border: 5px solid white;}
+.tileTitle          { height: 5%; }
+.tileText           { height: 22%; }
+.tileDivider        { height: 10%; background: url(../images/tilesDivider.svg) no-repeat; background-size: 100%;}
+.tileName           { height: 10%; }
+
