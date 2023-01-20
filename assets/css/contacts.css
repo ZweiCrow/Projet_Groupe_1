@@ -51,11 +51,13 @@ main p              { font-weight: 100; font-size: 16px; color: aliceblue; }
 #formContainer2     { height: 60%; justify-content: space-between;}
 #form               { width: 65%; }
 #infos              { width: 30%; }
-.numeroPhone        { width: 20px; height: 20px;}
+.locate             { width: 20px; height: 20px;}
 .infoBits           { height: 25%; justify-content: space-around;}
 .name               { height: 30%; align-items: center;}
 .divider            { height: 10%; align-items: flex-start;}
 .infos              { height: 50%; }
+#Phone              { width: 30px; height: 30px;}
+#miniClock         { width: 15px; height: 15px; margin-right: 10px;}
 
 #formTitle                  { height: 20%; }
 #formEntry                  { height: 75%; }
