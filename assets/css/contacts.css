@@ -1,0 +1,81 @@
+@font-face          { font-family: test; src: url(../fonts/flbigmugline/fl-bigmug-line.ttf); }
+
+html *              { font-size: 100%; font-weight: bold; font-family: "test"; }
+a                   { font-size: 17px; color: #222222; text-decoration: none; transition: .5s; }
+
+.flex               { display: flex; }
+.flexColumn         { display: flex; flex-direction: column; }
+.centerBloc         { display: flex; align-items: center; justify-content: center; } /* Centre un bloc enfant */
+.leftBloc           { display: flex; align-items: center; }
+.centerText         { text-align: center; } /* Centre le texte */
+.img                { width: 70%;}
+.cta                { background: #EC5353; padding: 20px 25px; border-radius: 50px; color: aliceblue;}
+.cta:hover          { background: aliceblue; color: #F9B129; box-shadow: 0 0 4px #F9B129;}
+html                { scroll-behavior: smooth; }
+
+sub, sup            { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup                 { top: -0.5em; }
+sub                 { bottom: -1em; }
+
+/* ---------- Main ----------*/
+
+main                { height: fit-content; background: white; }
+main h1             { font-size: 55px; color: aliceblue;}
+main h2             { font-size: 40px; margin-bottom: 20px; padding-top: 10px; color: aliceblue;}
+main h3             { font-size: 18px; }
+main h4             { font-size: 14px; }
+main p              { font-weight: 100; font-size: 16px; color: aliceblue; }
+.mainImg            { width: 100%; }
+.heightImg          { height: 100%;}
+.mainContainer      { width: 70%; height: 90%; background: #222222;}
+
+
+/* ---------- Titre ----------*/
+
+#pageTitle          { height: 300px; background: url(../images/ely.jpg) no-repeat; background-position: center; }
+#opacity            { height: 100%; width: 100%; background: rgba(0, 0, 0, .5);} 
+#titleContainer     { height: 50%; }
+#titleText          { height: 60%; }
+#Arianne            { height: 40%; }
+#pageTitle a        { font-size: 16px; color: #F9B129;}
+#pageTitle a:hover  { color: aliceblue; text-shadow: 0 0 4px #F9B129;}
+.titleImg           { width: 8%; margin: 0 15px;}
+#pageTitle p        { font-size: 16px; color: aliceblue;}
+
+/* ---------- Formulaire ----------*/
+
+#formulaire         { height: 1000px; }
+#formulaire p       { color: #6f6f6f; }
+#formulaire h2      { color: #222222; }
+#formContainer1     { width: 70%; height: 95%; }
+#formContainer2     { height: 60%; justify-content: space-between;}
+#form               { width: 65%; }
+#infos              { width: 30%; }
+.locate             { width: 20px; height: 20px;}
+.infoBits           { height: 25%; justify-content: space-around;}
+.name               { height: 30%; align-items: center;}
+.divider            { height: 10%; align-items: flex-start;}
+.infos              { height: 50%; }
+#Phone              { width: 30px; height: 30px;}
+#miniClock         { width: 15px; height: 15px; margin-right: 10px;}
+
+#formTitle                  { height: 20%; }
+#formEntry                  { height: 75%; }
+.formDiv                    { height: calc(100% / 3); }
+.formSection                { width: 50%; }
+.formContainer              { width: 90%; height: 90%; }
+#middle .formContainer      { width: 95%;}
+.entry                      { height: 50%; text-indent: 20px;}
+.entryText                  { align-items: flex-end;}
+.EntryInput                 { width: 100%; height: 80%; border-radius: 25px; border: none; text-indent: 15px; background: #F5F5F5; color: #F9B129;}
+.EntryInput:hover           { background: #e8e8e8;}
+main input::placeholder     { color: #F9B129;}
+main input:focus            { outline: none; border: 1px solid #F9B129;}
+#message                    { height: 20%;}
+#Message                    { height: 120%;}
+.contactsCta                { background: #F9B129; color: aliceblue; padding: 20px 25px; border-radius: 50px; width: 100%; text-align: center;}
+.contactsCta:hover          { background: #FFFFFF; color: #ffcf75; box-shadow: 0 0 4px #F9B129;}
+
+
+
+

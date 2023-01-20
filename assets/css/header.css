@@ -20,6 +20,7 @@ header a:hover      { color: #EFAB2F;}
 .headerEnds         { width: 17%; }
 nav                 { width: 60%; }
 #numero             { width: fit-content;}
+#numeroPhone        { width: 30px; height: 30px;}
 li                  { width: fit-content; padding: 0 10px;}
 .dot                { border-left: 1px solid black;}
 #home               { color: #EFAB2F;}
