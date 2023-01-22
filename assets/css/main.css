@@ -4,10 +4,9 @@ main{
 .rectangle{
     background: rgb(108, 110, 108);
     height: 200px;
-    width: auto;
+    width: 100%;
     margin: 20px;
 }
-
 
   
 
@@ -38,10 +37,11 @@ main{
 }
 
 h1{
-    background: orange;
     color: white;
-    width: 110px;
+    background: orange;
+    width: 60px;
     margin: 50px;
+    font-size: 20px;
 }
 
 h2{
@@ -52,10 +52,28 @@ h2{
 p{
     color: rgb(255, 187, 0);
     margin: 10px;
-
 }
 
-.Texte1{
-    color: orange;
+.texte1, .texte2, .texte3, .texte4{
+    color: rgb(236, 193, 107);
 }
+
+.texte1i, .texte2i, .texte3i, .texte4i{
+    color: white;
+}
+
+.homei{
+    background: rgb(108, 110, 108);
+    
+}
+
+.home{
+    text-align: center;
+}
+
+.Alignement1, .Alignement2, .Alignement3,.Alignement4{
+    display: flex;
+}
+
+
 
