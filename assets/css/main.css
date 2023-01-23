@@ -63,12 +63,19 @@ p{
 }
 
 .homei{
-    background: rgb(108, 110, 108);
-    
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
-.home{
-    text-align: center;
+.homeii{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 .Alignement1, .Alignement2, .Alignement3,.Alignement4{
