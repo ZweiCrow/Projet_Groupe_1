@@ -56,7 +56,6 @@ main p              { font-weight: 100; font-size: 16px; color: #BCBCBC; }
 .carteDiv           { height: 20%; }
 
 
-
 /* ---------- Order Online ----------*/
 #orderOnline h2     { font-size: 50px;}
 #orderOnline h3     { font-size: 30px;}
@@ -89,7 +88,7 @@ main p              { font-weight: 100; font-size: 16px; color: #BCBCBC; }
 #ourPartners        { height: 400px; text-align: center;}
 #partner            { height: 40%; }
 #partnerLogos       { height: 60%; }
-.partners           { width: 25%; height: 90%;  margin: 2%;}
+.partners           { width: 25%; height: fit-content;  margin: 2%;}
 
 /* ---------- Gallery ----------*/
 #gallery            { height: fit-content; background: darkseagreen;}
